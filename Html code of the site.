@@ -1,0 +1,74 @@
+<body>
+	<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<title>C21</title>
+<p>Its a work in progress :)<p>
+<h1 style="text-align:center">Welcome and here is a list of VPNS</h1>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+$.getJSON("https://api.ipify.org?format=json", function(data) {
+  $("#ip").text(data.ip);
+});
+});
+	</script>
+
+<h3>Your IP address is: </h3>
+<p id="ip">
+	</h3>
+  <p>
+
+
+
+
+<body>
+<label for="vpndropdown">Desktop VPNS:</label>
+<select name="vpns" id="vpns">
+<optgroup label="free vpns">
+<option value="free vpn forever">free vpn</option>
+<option value="veepn">VeePN</option>
+<option value="phiphon">phiphon</option>
+</optgroup>
+<optgroup label="Paid VPNS">
+<option value="nord">nordvpn  </option>
+</optgroup>
+</select>
+<body>
+	<label for="vpndropdown">Mobile VPNS:</label>
+	<select name="vpns" id="vpns">
+<optgroup label="free vpns">
+<option value="free vpn forever">free vpn</option>
+<option value="veepn">VeePN</option>
+<option value="phiphon">phiphon</option>
+</optgroup>
+<optgroup label="Paid VPNS">
+<option value="nord">nordvpn  </option>
+</optgroup>
+</select>
+<h4 style="font-weight: normal">A short explanation: A vpn stands for Virtual Private Network. If a website or file trys to log your ip and send it
+to a hacker your network could be at risk. A VPN allows you too mask your IP. Due too this if a hacker tried to
+"DDOS" you your network would be shutdown unless you use a VPN! If you need more info go here: 
+</h4><a href="https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/">Click me to learn more!</a>
+</body>
+
+
+
+<link rel="styleheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="container" >
+	<span><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+	<span><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+	<span><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></span>
+	<span><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></span>
+</div>
+</body>
+</body>
+
